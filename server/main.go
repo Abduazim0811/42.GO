@@ -31,7 +31,7 @@ func (t *Arith) Multiplication(args *models.Args, reply *float64) error {
 
 func (t *Arith) Divide(args *models.Args, reply *float64) error {
 	if args.B == 0 {
-		return fmt.Errorf("division by zero")
+		return fmt.Errorf("division by zero!!!(nolga bo'lib bo'lamaydi!!!)")
 	}
 	*reply = args.A / args.B
 	return nil
